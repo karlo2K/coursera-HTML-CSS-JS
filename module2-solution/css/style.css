@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+	position: absolute;
+	right: 0px; 
+}
+
+.content{
+	position: absolute;
+	top: 20px; 
+
+}
+
+div.container {
+  background-color: #00FFFF;
+  position: relative;
+}
+
+@media (min-width: 992px) {
+	#d1 {
+		width: 30%;
+		float: left;
+	}
+	#d2 {
+		width: 30%;
+		float: left;
+	}
+	#d3 {
+		width: 30%;
+		float: left;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	#d1 {
+		width: 50%;
+		float: left;
+	}
+	#d2 {
+		width: 50%;
+		float: left;
+	}
+	#d3 {
+		width: 100%;
+		float: left;
+	}
+}
