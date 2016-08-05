@@ -1,0 +1,70 @@
+body{
+	font-family: "Courier New", Courier, monospace;
+	background-color: #E6E6E6;
+}
+#header-nav {
+	background-color: #58807D;
+	border-radius: 0;
+	border: 0;
+	min-height: 70px;
+}
+
+.navbar-brand h1 {
+	color: #DFDFDF;
+	font-size: 2em;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #555;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 1.2;
+}
+
+.navbar-brand a:hover {
+	text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #DFDFDF;
+}
+
+#nav-list a {
+	color: #DFDFDF;
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+#nav-list a:hover {
+	color: #800000;
+}
+
+#main-content h2{
+	font-size: 3em;
+}
+
+.row section {
+	padding-bottom: 10px;
+}
+.row a {
+	color: #800000;
+	font-size: 1.1em;
+	padding-bottom: 15px;
+}
+
+.row hr {
+	height: 1px;
+	color: #58807D;
+	background-color: #58807D;
+}
+
+/***** Extra small devices *****/
+@media (max-width: 767px) {
+	.navbar-brand {
+		padding-top: 10px;
+		height: 80px;
+	}
+
+	.navbar-brand h1{
+		padding-top: 10px;
+		font-size: 5.2vw;
+	}
+}
